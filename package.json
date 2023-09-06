@@ -1,0 +1,31 @@
+{
+  "name": "asvnv-website-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "debug": "set DEBUG=* & node --inspect=127.0.0.1:9229 ./node_modules/@strapi/strapi/bin/strapi.js develop"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.1.8",
+    "@strapi/plugin-users-permissions": "4.1.8",
+    "@strapi/plugin-i18n": "4.1.8",
+    "better-sqlite3": "7.4.6"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "55e4bc7c-090d-4cbe-8143-6807f83b3155"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

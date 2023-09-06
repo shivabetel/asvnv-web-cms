@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_schemes",
+  "info": {
+    "displayName": "schemes",
+    "icon": "baby-carriage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "schemes": {
+      "displayName": "scheme",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.scheme"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schemes",
+  "info": {
+    "singularName": "scheme",
+    "pluralName": "schemes",
+    "displayName": "scheme",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+  },
+  "attributes": {
+    "uid": {
+      "type": "uid"
+    },
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    }
+  }
+}

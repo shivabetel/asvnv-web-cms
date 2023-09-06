@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_events",
+  "info": {
+    "displayName": "events",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "events": {
+      "displayName": "event",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.event"
+    }
+  }
+}

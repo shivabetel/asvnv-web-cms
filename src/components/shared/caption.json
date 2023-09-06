@@ -1,0 +1,18 @@
+{
+  "collectionName": "shared_captions",
+  "info": {
+    "displayName": "caption",
+    "icon": "closed-captioning"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.icon"
+    }
+  }
+}

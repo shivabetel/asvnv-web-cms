@@ -1,0 +1,50 @@
+{
+  "collectionName": "shared_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "star-of-life",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "tertiary"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.icon"
+    },
+    "iconPosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "right"
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "dataMode": {
+      "type": "enumeration",
+      "enum": [
+        "bold",
+        "light",
+        "dark"
+      ]
+    }
+  }
+}

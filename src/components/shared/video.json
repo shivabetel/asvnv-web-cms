@@ -1,0 +1,14 @@
+{
+  "collectionName": "shared_videos",
+  "info": {
+    "displayName": "video",
+    "icon": "video-slash",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    }
+  }
+}

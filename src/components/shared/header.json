@@ -1,0 +1,43 @@
+{
+  "collectionName": "shared_headers",
+  "info": {
+    "displayName": "header",
+    "icon": "share-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "caption": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.caption"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "textAlignDesktop": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "left"
+      ]
+    },
+    "textAlignTablet": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "left"
+      ]
+    },
+    "textAlignMobile": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "left"
+      ]
+    }
+  }
+}

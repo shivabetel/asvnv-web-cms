@@ -1,0 +1,31 @@
+{
+  "collectionName": "shared_icons",
+  "info": {
+    "displayName": "icon",
+    "icon": "icons",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "svg": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "string"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "s",
+        "m",
+        "l",
+        "xl",
+        "xxl",
+        "fill"
+      ]
+    },
+    "alttext": {
+      "type": "string"
+    }
+  }
+}

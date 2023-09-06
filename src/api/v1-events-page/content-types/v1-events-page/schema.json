@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "v1_events_pages",
+  "info": {
+    "singularName": "v1-events-page",
+    "pluralName": "v1-events-pages",
+    "displayName": "v1-eventsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "uid"
+    },
+    "eventsBlock": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.events"
+      ]
+    }
+  }
+}

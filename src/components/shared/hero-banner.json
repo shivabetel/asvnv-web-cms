@@ -1,0 +1,56 @@
+{
+  "collectionName": "shared_hero_banners",
+  "info": {
+    "displayName": "HeroBanner",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "caption": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.caption"
+    },
+    "headerText": {
+      "type": "richtext"
+    },
+    "footerText": {
+      "type": "richtext"
+    },
+    "bannerImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image"
+    },
+    "bannerVideo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.video"
+    },
+    "target": {
+      "type": "string"
+    },
+    "headerAlignDesktop": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    },
+    "content-dataMode": {
+      "type": "enumeration",
+      "enum": [
+        "dark",
+        "light",
+        "bold"
+      ]
+    }
+    
+  }
+}

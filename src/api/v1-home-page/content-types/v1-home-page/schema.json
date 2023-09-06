@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "v1_home_pages",
+  "info": {
+    "singularName": "v1-home-page",
+    "pluralName": "v1-home-pages",
+    "displayName": "v1-home-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "uid"
+    },
+    "carouselBannerBlock": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.carousel-hero-banner"
+      ]
+    },
+    "schemes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::scheme.scheme"
+    },
+    "schemesBlock": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.schemes",
+        "shared.header"
+      ]
+    },
+    "downloadAppBlock": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.header",
+        "shared.image",
+        "shared.button"
+      ]
+    }
+  }
+}

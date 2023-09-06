@@ -1,0 +1,20 @@
+{
+  "collectionName": "shared_images",
+  "info": {
+    "displayName": "image",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "desktop": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "alttext": {
+      "type": "string"
+    }
+  }
+}
